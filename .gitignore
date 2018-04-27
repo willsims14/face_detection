@@ -1,0 +1,7 @@
+*.pyc
+*.log
+*.csv
+*.xlsx
+*.sql
+*.db
+logs/
