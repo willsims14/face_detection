@@ -5,7 +5,7 @@ import time
 
 def main(max_images_to_download=15, reset_interval_seconds=10):
     # Dependencies
-    faceCascade = cv2.CascadeClassifier('cascades/haarcascade_frontalface_alt.xml')
+    faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
     video_capture = cv2.VideoCapture(0)
 
     # Flags and Counters
